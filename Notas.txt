@@ -1,0 +1,44 @@
+En este proyecto utilizamos REACT router DOM
+
+----> React Router DOM
+
+- React Router DOM es una librería para crear aplicaciones con Routing (diferentes URLs)
+- Utiliza Loaders para obtener datos de una API o de un objeto (similar a un state)
+- Utiliza Actions para procesar la entrada de datos de un Form
+
+----> Cuando usar useLoaderData y useActionData
+
+- useLoaderData cuando quieras obtener el resultado de un loader
+- useActionData cuando quieras obtener el resultado de un action
+
+
+----> Expresión regular para validar el email
+
+let regex = new RegExp("([!#-'*+/-9=?A-Z^-~-]+(\.[!#-'*+/-9=?A-Z^-~-]+)*|\"\(\[\]!#-[^-~ \t]|(\\[\t -~]))+\")@([!#-'*+/-9=?A-Z^-~-]+(\.[!#-'*+/-9=?A-Z^-~-]+)*|\[[\t -Z^-~]*])");
+
+----> REST API
+
+- REST = Representational State Transfer
+- Puede ser Diseñada en cualquier lenguaje
+- Debe responder a los Request HTTP: GET, POST, PUT, PATCH, DELETE
+- Tiene una forma ordenada y estructurada de poner a disposición los recursos
+
+----> Verbos HTTP
+
+- GET: Obtener información de una API
+- POST: Enviar Datos al Servidor / Creación
+- PUT y PATHC: Actualizar
+- DELETE: Eliminar
+
+----> Endpoints de una Rest API
+
+- Una REST API cuenta con Endpoints (o URLs) para hacer operaciones CRUD
+- Listar todos los clientes GET /clientes
+- Obtener un solo ciente GET /clientes/10
+- Crear un nuevo cliente POST /clientes
+- Editar un cliente POST /clientes/10
+- Borrar un cliente DELETE /clientes/8
+- Los archivos .json usan comillas dobles no simples
+
+- Navigate es una buena opción cuando queremos redireccionar mediante un botón
+- Redirect se usa cuando se vaya a redireccionar en actions y loaders
